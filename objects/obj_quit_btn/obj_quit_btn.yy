@@ -1,9 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_game_title",
+  "name": "obj_quit_btn",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -25,13 +28,11 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"button_text","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"Medieval Tower Game","varType":2,},
-  ],
+  "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_banner_horizontal",
-    "path": "sprites/spr_banner_horizontal/spr_banner_horizontal.yy",
+    "name": "spr_button_red_3Slides",
+    "path": "sprites/spr_button_red_3Slides/spr_button_red_3Slides.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_game_title",
+  "name": "obj_game_description",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
@@ -25,13 +25,11 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"button_text","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"Medieval Tower Game","varType":2,},
-  ],
+  "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_banner_horizontal",
-    "path": "sprites/spr_banner_horizontal/spr_banner_horizontal.yy",
+    "name": "spr_banner_vertical",
+    "path": "sprites/spr_banner_vertical/spr_banner_vertical.yy",
   },
   "spriteMaskId": null,
   "visible": true,
