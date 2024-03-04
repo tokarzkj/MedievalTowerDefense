@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_button_red_3Slides",
-    "path": "sprites/spr_button_red_3Slides/spr_button_red_3Slides.yy",
+    "name": "spr_button_red_3slides",
+    "path": "sprites/spr_button_red_3slides/spr_button_red_3slides.yy",
   },
   "spriteMaskId": null,
   "visible": true,
