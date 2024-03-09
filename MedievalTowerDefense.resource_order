@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
@@ -35,7 +35,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"spr_tnt_red","order":7,"path":"sprites/spr_tnt_red/spr_tnt_red.yy",},
     {"name":"spr_pawn_yellow","order":3,"path":"sprites/spr_pawn_yellow/spr_pawn_yellow.yy",},
     {"name":"obj_foam","order":5,"path":"objects/obj_foam/obj_foam.yy",},
