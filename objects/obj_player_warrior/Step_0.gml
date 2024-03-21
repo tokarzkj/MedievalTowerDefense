@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
 var _water_tilemap_id = layer_tilemap_get_id("WaterTileSet");
 
 var _is_moving_down = destination_y > y;
@@ -27,13 +25,13 @@ if (abs(destination_x - x) < 5 && abs(destination_y - y) < 5 || _did_walk_into_c
 	sprite_index = spr_warrior_blue_idle;
 }
 
-if (!_is_attacking && attack_tgt != noone && attack_tgt == collision_circle(x, y, 100, attack_tgt, false, true))
+if (!_is_attacking && attack_tgt != noone && attack_tgt == collision_circle(x, y, 95, attack_tgt, false, true))
 {
 	if (_attack_timer >= _attack_timer_threshold)
 	{
 		_is_attacking = true;
-		sprite_index = spr_warrior_blue_attack_down;
 		_attack_timer = 0;
+		sprite_index = spr_warrior_blue_attack_down;
 		attack_tgt._health -= 2;
 	}
 	else
