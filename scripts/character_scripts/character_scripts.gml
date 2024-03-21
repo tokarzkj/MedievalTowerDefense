@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function walk_to_target()
 {
-	if (_is_selected && !collision_point(mouse_x, mouse_y, obj_knight, false, true))
+	if (_is_selected && !collision_point(mouse_x, mouse_y, obj_player_warrior, false, true))
 	{
 		if (abs(mouse_x - x) > 5 && abs(mouse_y - y) > 5)
 		{	
