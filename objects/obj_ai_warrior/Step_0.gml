@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Detect when the instance needs to die.
 
 if (_health <= 0)
 {

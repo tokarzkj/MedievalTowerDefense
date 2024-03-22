@@ -10,3 +10,4 @@ attack_pwr = 3;
 attack_spd = 1;
 attack_tgt = noone;
 _is_attacking = false;
+_attack_timer_threshold = 100;
